@@ -15,7 +15,7 @@ function About() {
             Our church is a community of people who come together to worship God, learn from the Bible, and support each other. We believe in the power of prayer, the importance of family, and the transformative work of the Holy Spirit in our lives. 
           </p>
           <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4">
-            Join Us!
+                    Welcome
           </button>
         </div>
       </div>

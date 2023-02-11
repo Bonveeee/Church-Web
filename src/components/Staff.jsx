@@ -1,7 +1,7 @@
 
 const Staff = () => {
   return (
-    <div>Staff</div>
+    <div><h1>Meet our Staff</h1></div>
   )
 }
 
