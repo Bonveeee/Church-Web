@@ -1,7 +1,10 @@
 
 const Sermon = () => {
   return (
-    <div>Sermon</div>
+    <div>
+    Recent Sermons
+    <div>Video</div>
+    </div>
   )
 }
 
