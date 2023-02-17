@@ -17,6 +17,9 @@ function About() {
           <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4">
                     Welcome
           </button>
+          <button className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded mt-4">
+                  Contact us
+          </button>
         </div>
       </div>
     </div>
