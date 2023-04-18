@@ -6,6 +6,7 @@ import Sermon from "./components/Sermon";
 import Staff from "./components/Staff";
 import PlanVisit from "./components/PlanVisit";
 import About from "./components/About";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/staff" element={<Staff/>} />
         <Route path="/planvisit" element={<PlanVisit/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/gallery" element={<Gallery/>} />
       </Routes>
     </Router>
   );
