@@ -21,7 +21,9 @@ module.exports = {
         "bright-yellow": "#FFFF00",
         "fresh-green": "#00FF00",
         "light-purple": "#ABA0F6",
-        "darker-purple": "#7B53C3"
+        "darker-purple": "#7B53C3",
+        "pinkish-purple": "bg-purple-800"
+        
         }
     },
   },
