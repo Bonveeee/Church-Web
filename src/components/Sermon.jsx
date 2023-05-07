@@ -4,8 +4,9 @@ const Sermon = () => {
   const [videos, setVideos] = useState([]);
 
   useEffect(() => {
-    const apiKey = "AIzaSyBrSO2tBHjHRyFfyYiBKq2vbQGwtMw4RPc";
-    const playlistId = "PLB4IZODwmK5mvt418XpgF96nhic5t6Pws";
+    // const apiKey = process.env.REACT_APP_RAPID_API_KEY;
+    // const playlistId = process.env.REACT_APP_CHANNEL_API_KEY;
+
     const maxResults = 6;
     fetch(
       `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&maxResults=${maxResults}&order=date&type=video&key=${apiKey}`
